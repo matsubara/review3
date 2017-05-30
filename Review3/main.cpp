@@ -8,7 +8,7 @@
 
 /* 
  
- 1. Create to float variables
+ 1. Create two float variables
  Assign them values (you can choose)
  If the first one is greater than the second one, print "The first is higher than the second", else print "The first is lower than the second"
  
@@ -19,7 +19,15 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    float a;
+    float b;
+    a = 10.5;
+    b = 8.5;
+    if (a > b) {
+        std::cout << a << " is higher than " << b<<"\n";
+    }
+    else {
+        std::cout << a << " is lower than " << b<<"\n";
+    }
     return 0;
 }
